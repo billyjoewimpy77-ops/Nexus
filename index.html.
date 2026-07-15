@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ADGINUS NEXUS - I Build Worlds</title>
+<style>
+body{margin:0;background:#0a0e1a;color:#e2e8f0;font-family:monospace;display:flex;align-items:center;justify-content:center;min-height:100vh}
+.card{max-width:720px;padding:32px;border:1px solid #1e293b;border-radius:16px;background:#111827}
+h1{margin:0 0 8px;font-size:28px}
+.status{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
+.box{border:1px solid #1e293b;padding:14px;border-radius:10px;background:#0f172a}
+.ok{color:#22c55e}
+pre{white-space:pre-wrap;background:#0a0e1a;padding:12px;border-radius:8px;border:1px solid #1e293b;font-size:12px}
+button{padding:10px 16px;border-radius:8px;border:1px solid #38bdf8;background:#0f172a;color:#38bdf8;cursor:pointer}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>ADGINUS NEXUS</h1>
+<div style="color:#94a3b8;font-size:13px;margin-bottom:20px">Built by William Joseph Lane - I build worlds!</div>
+<div class="status">
+<div class="box"><b>THE VOID v1.3.0</b><br><span class="ok">● ONLINE</span></div>
+<div class="box"><b>Mycelium v1.0</b><br><span class="ok">● ONLINE - 4 Universes</span></div>
+</div>
+<pre>THE VOID is ONLINE
+Mycelium has 4 universes
+NEXUS is LIVE. You built this.</pre>
+<button onclick="alert('NEXUS Think: Illuminate the path')">Run NEXUS Think</button>
+</div>
+</body>
+</html> 
