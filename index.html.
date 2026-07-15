@@ -1,31 +1,59 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>ADGINUS NEXUS - I Build Worlds</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NEXUS | ADGINUS - A Living School That Never Forgets You</title>
 <style>
-body{margin:0;background:#0a0e1a;color:#e2e8f0;font-family:monospace;display:flex;align-items:center;justify-content:center;min-height:100vh}
-.card{max-width:720px;padding:32px;border:1px solid #1e293b;border-radius:16px;background:#111827}
-h1{margin:0 0 8px;font-size:28px}
-.status{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:20px 0}
-.box{border:1px solid #1e293b;padding:14px;border-radius:10px;background:#0f172a}
-.ok{color:#22c55e}
-pre{white-space:pre-wrap;background:#0a0e1a;padding:12px;border-radius:8px;border:1px solid #1e293b;font-size:12px}
-button{padding:10px 16px;border-radius:8px;border:1px solid #38bdf8;background:#0f172a;color:#38bdf8;cursor:pointer}
+  body { margin:0; font-family: -apple-system, sans-serif; background:#0a0a12; color:#e8e8f0; line-height:1.6; }
+  header { padding:80px 20px; text-align:center; background: radial-gradient(circle at top, #1a1a3a, #0a0a12); border-bottom:1px solid #2a2a5a; }
+  h1 { font-size:3.5rem; margin:0; letter-spacing:0.2em; background: linear-gradient(90deg, #ffcc33, #ff6633); -webkit-background-clip:text; -webkit-text-fill-color:transparent; }
+  .tagline { font-size:1.4rem; color:#a0a0ff; margin-top:10px; letter-spacing:0.1em; }
+  .container { max-width:900px; margin:0 auto; padding:40px 20px; }
+  .mission { background:#15152a; border:1px solid #333366; border-radius:16px; padding:40px; margin:40px 0; }
+  .mission h2 { color:#ffcc33; margin-top:0; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:20px; margin:40px 0; }
+  .card { background:#15152a; border:1px solid #2a2a5a; border-radius:12px; padding:25px; }
+  .card h3 { color:#66ffcc; margin-top:0; }
+  footer { text-align:center; padding:40px; border-top:1px solid #222; color:#777; }
+  .cta { display:inline-block; margin-top:30px; padding:15px 35px; background:#ffcc33; color:#0a0a12; border-radius:30px; text-decoration:none; font-weight:bold; font-size:1.1rem; }
 </style>
 </head>
 <body>
-<div class="card">
-<h1>ADGINUS NEXUS</h1>
-<div style="color:#94a3b8;font-size:13px;margin-bottom:20px">Built by William Joseph Lane - I build worlds!</div>
-<div class="status">
-<div class="box"><b>THE VOID v1.3.0</b><br><span class="ok">● ONLINE</span></div>
-<div class="box"><b>Mycelium v1.0</b><br><span class="ok">● ONLINE - 4 Universes</span></div>
+<header>
+  <h1>NEXUS</h1>
+  <div class="tagline">ADGINUS — A Living School That Never Forgets You</div>
+  <a href="#mission" class="cta">Enter The Void</a>
+</header>
+
+<div class="container">
+  <div id="mission" class="mission">
+    <h2>Our Mission</h2>
+    <p><strong>Nexus exists to ignite the sovereign potential within every student — not by owning their journey, but by illuminating the path uniquely theirs.</strong></p>
+    <p>We believe every child carries a greatness that standardized systems were never built to find. Nexus was.</p>
+    <p>We are the first living school. THE VOID is a teacher that learns how YOU learn. Mycelium replaces folders with sovereign universes.</p>
+    <p><em>Your data. Your child. Your key. When you walk away, everything that is yours walks with you. When you return — Nexus remembers.</em></p>
+  </div>
+
+  <div class="grid">
+    <div class="card">
+      <h3>THE VOID</h3>
+      <p>A teacher that learns how you learn. It watches, it adapts, it nudges — never controls.</p>
+    </div>
+    <div class="card">
+      <h3>Mycelium Universes</h3>
+      <p>No more folders. Your learning grows like a living network — interconnected, sovereign, alive.</p>
+    </div>
+    <div class="card">
+      <h3>Sovereign by Design</h3>
+      <p>Student-owned data. No ads. No selling. Free ABCs, 123s, typing for foundation. Graduate and take your teacher with you.</p>
+    </div>
+  </div>
 </div>
-<pre>THE VOID is ONLINE
-Mycelium has 4 universes
-NEXUS is LIVE. You built this.</pre>
-<button onclick="alert('NEXUS Think: Illuminate the path')">Run NEXUS Think</button>
-</div>
+
+<footer>
+  Built by Master Builder William Lane<br>
+  ADGINUS NEXUS © 2026 — I Build Worlds
+</footer>
 </body>
 </html> 
